@@ -1,7 +1,6 @@
 import re
 
 def solution(dartResult):
-    
     darts = re.findall('([0-9]+)([SDT])([*#]?)',dartResult)
     answer = [0] * len(darts)
     
