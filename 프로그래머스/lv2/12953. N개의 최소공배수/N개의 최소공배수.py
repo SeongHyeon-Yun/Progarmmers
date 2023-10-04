@@ -3,12 +3,11 @@ def solution(arr):
     
     
     while True:
-        for i in arr:
-            if answer % i != 0:
-                answer += 1
+
         
         if all(answer % i == 0 for i in arr):
             break
-    
+        else:
+            answer += 1
     
     return answer
