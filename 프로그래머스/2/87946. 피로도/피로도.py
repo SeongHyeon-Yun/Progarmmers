@@ -12,9 +12,6 @@ def solution(k, dungeons):
             if score >= j[0]:
                 score -= j[1]
                 count += 1
-            else:
-                answer.append(count)
         answer.append(count)
                 
-    
     return max(answer)
