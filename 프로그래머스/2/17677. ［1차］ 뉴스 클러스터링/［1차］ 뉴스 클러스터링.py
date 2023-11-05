@@ -32,5 +32,4 @@ def solution(str1, str2):
     else:
         answer = 1*65536
         
-        
     return answer
